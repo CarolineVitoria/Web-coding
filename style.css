@@ -73,6 +73,7 @@ h2{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    flex: 0 1 auto;
 }
 .sec-lista h2{
     text-align: center;
@@ -212,4 +213,18 @@ footer{
     justify-content: center;
     align-items: center;
     font-style: italic;
+}
+@media screen and (max-height: 830px){
+    #div-dl{
+        font-size: 1.8rem;
+    }
+    .div-item{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 1750px){
+    #div-form{
+        flex-flow: row wrap;
+        justify-content: center;
+    }
 }
