@@ -79,7 +79,7 @@ h2{
     width: 100vw;
 }
 .div-item{
-    background-color: #FF6969;
+    background-color: #ff6969b7;
     border-radius: 2rem;
     max-width: 45vw;
     height: 30vh;
@@ -103,7 +103,7 @@ dl dd{
     padding: 1.5rem;
     flex-basis: auto;
     width: 70vw;
-    background-color: #FF6969;
+    background-color: #ff6969b7;
     border-radius: 2rem;
 }
 #div-dl h3{
